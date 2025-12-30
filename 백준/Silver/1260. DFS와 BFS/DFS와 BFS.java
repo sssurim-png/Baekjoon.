@@ -19,7 +19,7 @@ public class Main {
 
         visited =new boolean[N+1];
 
-        for(int i =0; i<=N;i++){
+        for(int i =1; i<N+2;i++){
             graph.add(new ArrayList<>());
         } //0버리고 6개 만들되 어차피 1부터 5까지 인덱스 번호에 맞게 값이 들어간다
 
